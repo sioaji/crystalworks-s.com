@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+/* フォントを統一 */
+body {
+  font-family: 'Yuji Syuku', serif;
+}
+
 /*CSSスライドショー設定
 ---------------------------------------------------------------------------*/
 /*１枚目*/
@@ -112,4 +118,57 @@ div a .img-fluid {
 .p-adress {
 }
 .kiseki-catch {
+}
+
+/* ----------------------------------------
+   メニューボタンのスタイル定義
+   - Font Awesomeのハンバーガーアイコンと「メニュー」文字を表示
+   - ホバー時に視覚的な反応（押せる感）を演出
+---------------------------------------- */
+.menu-button {
+  border: 2px solid #F5F5DC;              /* 生成り色の枠線 */
+  color: #F5F5DC;                         /* 生成り色の文字 */
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(245, 245, 220, 0.3); /* 柔らかい光 */
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background-color: #F5F5DC;              /* 背景に生成り色 */
+  color: #000;                            /* 黒文字で視認性UP */
+  box-shadow: 0 0 12px rgba(245, 245, 220, 0.6); /* 光の強調 */
+  transform: scale(1.05);
+  border-color: #DCDCC0;                  /* 少し濃い生成り色で引き締め */
+}
+
+/* ----------------------------------------
+   左右にロゴ幅の半分の余白を設定し、間は片方だけ空けるようにCSSを調整
+---------------------------------------- */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; /* gapは使わず、個別にmarginで調整 */
+}
+
+.social-icons img {
+  height: 67px;
+  width: auto;
+}
+
+/* Twitterロゴ（左） */
+.social-icons .twitter {
+  margin-left: 30px;  /* 左にロゴ幅の半分（60px ÷ 2） */
+  margin-right: 0;
+}
+
+/* Facebookロゴ（右） */
+.social-icons .facebook {
+  margin-left: 30px;  /* Twitterとの間隔（片側だけ） */
+  margin-right: 33.5px; /* Facebookの幅（67px ÷ 2） */
 }
