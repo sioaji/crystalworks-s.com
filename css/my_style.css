@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-/* フォントを統一 */
+/* サイト全体のフォントを和風の「Yuji Syuku」に統一 */
 body {
   font-family: 'Yuji Syuku', serif;
 }
 
-/*CSSスライドショー設定
----------------------------------------------------------------------------*/
-/*１枚目*/
+/* ----------------------------------------
+　スライドショーのアニメーション
+------------------------------------------*/
+/*１枚目　：最初の画像が0〜10%でフェードイン → 30%まで表示 → 40%でフェードアウト　*/
 @keyframes slide1 {
 	0% {opacity: 0;}
 	10% {opacity: 1;}
@@ -15,7 +16,7 @@ body {
 	40% {opacity: 0;}
 	100% {opacity: 0;}
 }
-/*２枚目*/
+/*２枚目　：2枚目の画像が30〜40%でフェードイン → 70%まで表示 → 100%まで維持　*/
 @keyframes slide2 {
 	0% {opacity: 0;}
 	30% {opacity: 0;}
@@ -25,45 +26,47 @@ body {
 	100% {opacity: 1;}
 }
 
-/*画像ブロック*/
+/*　メイン画像ブロック（スライド画像を配置する親要素）　*/
 #mainimg {
 	clear: left;
 	width: 100%;
 	margin-bottom: 20px;
-	position: relative;
+	position: relative;                   /* 子要素の　絶対位置（absolute）　指定を有効にするため */
 }
 
-/*３枚画像の共通設定*/
+/* 共通設定 ：スライド画像のスタイル */
 #slide1,#slide2 {
-	-webkit-animation-duration: 5s;	/*実行する時間。「s」は秒の事。*/
-	animation-duration: 10s;			/*同上*/
-	-webkit-animation-iteration-count:1;	/*実行する回数。「infinite」は無
-限に繰り返す意味。*/
-	animation-iteration-count:1;			/*同上*/
-	border-radius: 4px;	/*角丸のサイズ。大きくすれば角の丸みが大きくなる。角丸が
-不要ならこの１行削除。*/
+	-webkit-animation-duration: 5s;	      /* アニメーションの長さ（ 5秒） */
+	animation-duration: 10s;			        /* アニメーションの長さ（10秒） */
+	-webkit-animation-iteration-count:1;	/* 1回だけ再生（infiniteにすればループ可能）*/
+	animation-iteration-count:1;			    /* 同上 */
+	border-radius: 4px;	                  /* 角丸のサイズ。大きくすれば角の丸みが大きくなる。角丸が不要ならこの１行削除。*/
 }
 
-/*１枚目*/
+/*１枚目　：相対位置で重ねて表示　*/
 #slide1 {
-	-webkit-animation-name: slide1;		/*上で設定しているキーフレーム（keyframes）
-の名前*/
-	animation-name: slide1;				/*同上*/
+	-webkit-animation-name: slide1;		    /* 上で設定しているキーフレーム（keyframes）の名前 */
+	animation-name: slide1;				        /* 同上 */
 	position: relative;width: 100%;height: auto;
 }
 
-/*２枚目*/
+/*２枚目　：絶対位置で重ねて表示　*/
 #slide2 {
-	-webkit-animation-name: slide2;		/*上で設定しているキーフレーム（keyframes）
-の名前*/
-	animation-name: slide2;				/*同上*/
+	-webkit-animation-name: slide2;		    /* 上で設定しているキーフレーム（keyframes）の名前 */
+	animation-name: slide2;				        /* 同上 */
 	position: absolute;left:0px;top:0px;width: 100%;height: auto;
 }
+
+/* ----------------------------------------
+    フッターのスタイル定義
+---------------------------------------- */
+/* フッター全体の背景色と余白 */
 .footer-info {
     background-color: #EDEDED;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+/* 著作権表示部分。白文字＋濃い背景 */
 .footer-copyright {
     color: #FFFFFF;
     font-size: 10px;
@@ -71,52 +74,82 @@ body {
     padding-bottom: 20px;
     background-color: #555555;
 }
+
+/* ----------------------------------------
+    コンテナのスタイル定義
+---------------------------------------- */
+/* 全体の背景色 （暗め）*/
 .container-fluid {
     background-color: #020202;
 }
+/* 1行全体の背景色 （明るめ）*/
 .container-fluid .row .col-lg-12 {
     background-color: #EDEDED;
 }
+/* 住所部分の文字色 */
 .row .col-lg-12 .p-adress {
 }
+/* 各アイコンの文字色 */
 .container-fluid .kiseki-catch .text-center {
     color: #F2F0F0;
 }
+/* 各アイコンの説明部分の文字色 */
 .container-fluid .info {
     color: #F2F0F0;
 }
+/* 各アイコンの説明部分の文字色（strong部分）
+- .strong で強調されたテキストはサイズアップ。*/
 .soudan .text-center strong {
     color: #F2F0F0;
     font-size: 25px;
 }
+/* トピック部分の文字色 */
 div a .img-fluid {
 }
+/* トピック部分の見出し */
 .container-fluid .topic h6 {
     color: #FFFFFF;
     font-size: 18px;
 }
+/* トピック部分の説明文 */
 .container-fluid .topic p {
     color: #FFFFFF;
 }
+
+/* ----------------------------------------
+    レスポンシブ対応
+---------------------------------------- */
+/* 画面幅が1200px以上のとき(PC画面) */
 @media (min-width: 1200px){
-.footer-info {
-    background-color: #EDEDED;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-.container-fluid {
-    width: 1200px;
-}
-.container-fluid {
-}
+  /* フッター全体の背景色と余白 */
+  .footer-info {
+      background-color: #EDEDED;
+      padding-bottom: 30px;
+      padding-top: 30px;
+  }
+  /* Bootstrapのコンテナ幅を1200pxに固定 */
+  .container-fluid {
+      width: 1200px;
+  }
+  /* 1行全体の背景色 （明るめ）*/
+  .container-fluid {
+  }
 }
 
+/* 767px以下のとき：スマホ向けのスタイル（未定義） */
 @media (max-width: 767px){
 }
+
+/* ----------------------------------------
+    追加のスタイル定義
+---------------------------------------- */
+/* 1行全体の背景色 */
 .col-0001 {
 }
+/* 住所部分の文字色 */
 .p-adress {
 }
+/* 各アイコンの文字色 */
 .kiseki-catch {
 }
 
@@ -128,21 +161,21 @@ div a .img-fluid {
 .menu-button {
   border: 2px solid #F5F5DC;              /* 生成り色の枠線 */
   color: #F5F5DC;                         /* 生成り色の文字 */
-  background-color: transparent;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  cursor: pointer;
+  background-color: transparent;            /* 背景は透明 */  
+  padding: 0.5rem 1rem;                     /* ボタン内の余白 */
+  border-radius: 4px;                       /* 角丸 */
+  font-weight: bold;                        /* 太字 */
+  transition: all 0.3s ease;                /* スムーズな変化 */    
+  cursor: pointer;                          /* ポインター表示 */
   box-shadow: 0 0 6px rgba(245, 245, 220, 0.3); /* 柔らかい光 */
 }
 
-.menu-button:hover,
-.menu-button:focus {
+.menu-button:hover,       /* ホバー時 */  
+.menu-button:focus {      /* フォーカス時 */
   background-color: #F5F5DC;              /* 背景に生成り色 */
   color: #000;                            /* 黒文字で視認性UP */
   box-shadow: 0 0 12px rgba(245, 245, 220, 0.6); /* 光の強調 */
-  transform: scale(1.05);
+  transform: scale(1.05);                   /* 少し拡大 */
   border-color: #DCDCC0;                  /* 少し濃い生成り色で引き締め */
 }
 
