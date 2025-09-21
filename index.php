@@ -64,7 +64,7 @@
 
     <div class="container-fluid">	  
       <div class="info">
-        <h5 class="sub-midashi col-lg-8 offset-lg-2"><strong>◎トピック</strong></h5>
+        <h5 class="sub-midashi col-lg-8 offset-lg-2"><strong><br>◎トピック</strong></h5>
         <p class="col-lg-8 offset-lg-2">
           <strong>
             ⚪︎神霊導師・鈴木照玉先生のYouTubeチャンネル開設！ <br>
