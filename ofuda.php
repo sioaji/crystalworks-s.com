@@ -16,21 +16,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-      <a href="index.html">
-        <img src="./photo-1/nav.png" width="28" height="28" alt="">
-      </a>
-      <strong> 神霊導師・鈴木照玉 top</strong>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"> <a class="nav-link" href="kiseki.html">軌跡</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="girei.html">事例</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="ofuda.html">販売</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="soudan.html">ご相談</a> </li>
-        </ul>
-      </div>
-    </nav>
+    <?php include 'header.php'; ?>
 
   	<div class="container-fluid">
 		  <div class="row">
@@ -64,20 +50,7 @@
       </div>
     </div>
 
-    <div class="footer-info">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <p><strong>有限会社 クリスタルワーク</strong></p>
-            <p class="p-adress">
-              〒503-0801<br>
-              岐阜県大垣市和合新町2丁目46-3
-            </p>
-            <p class="text-right">&copy;Crystl Work Co.,Ltd.,all rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php include 'footer.php'; ?>
 
     <!-- body code goes here -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
