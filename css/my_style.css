@@ -68,7 +68,7 @@ body {
 .link-block {
   position: relative;           /* 子要素の絶対位置指定を有効にするため */
   overflow: hidden;             /* 画像がはみ出さないように */
-  min-height: 200px;            /* 画像の高さに合わせて調整 */
+  min-height: 140px;            /* 画像の高さに合わせて調整 */
   padding-top: 20px;            /* 上に少し余白 */
   padding: 10px;                /* 画像間の余白を追加 */
 }
