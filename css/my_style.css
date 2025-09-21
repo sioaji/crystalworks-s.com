@@ -68,7 +68,7 @@ body {
 .link-block {
   position: relative;           /* 子要素の絶対位置指定を有効にするため */
   overflow: hidden;             /* 画像がはみ出さないように */
-  min-height: 140px;            /* 画像の高さに合わせて調整 */
+  min-height: 130px;            /* 画像の高さに合わせて調整 */
   padding-top: 20px;            /* 上に少し余白 */
   padding: 10px;                /* 画像間の余白を追加 */
 }
@@ -103,24 +103,6 @@ body {
 
 .link-block:last-child img {
   margin-right: 0;              /* 最後の画像の右側の余白をなくす */
-}
-
-/* ----------------------------------------
-    フッターのスタイル定義
----------------------------------------- */
-/* フッター全体の背景色と余白 */
-.footer-info {
-    background-color: #EDEDED;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-/* 著作権表示部分。白文字＋濃い背景 */
-.footer-copyright {
-    color: #FFFFFF;
-    font-size: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #555555;
 }
 
 /* ----------------------------------------
@@ -171,10 +153,22 @@ div a .img-fluid {
 @media (min-width: 1200px){
   /* フッター全体の背景色と余白 */
   .footer-info {
-      background-color: #EDEDED;
-      padding-bottom: 30px;
-      padding-top: 30px;
+    background-color: #EDEDED;
+    width: 100% !important;   /* ページ全体に広げる */
+    max-width: none;          /* 最大幅の制限を解除 */
+    padding-left: 0;
+    padding-right: 0;
   }
+
+  /* 著作権表示部分。白文字＋濃い背景 */
+  .footer-copyright {
+      color: #FFFFFF;
+      font-size: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #555555;
+  }
+
   /* Bootstrapのコンテナ幅を1200pxに固定 */
   .container-fluid {
       width: 1200px;
