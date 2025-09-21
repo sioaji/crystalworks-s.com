@@ -58,6 +58,54 @@ body {
 }
 
 /* ----------------------------------------
+　スライドショーのアニメーション (リンクボタン用)
+------------------------------------------*/
+.container-fluid .row {
+  padding-left: 15px;           /* Bootstrapのコンテナと同じ余白 */
+  padding-right: 15px;          /* Bootstrapのコンテナと同じ余白 */
+}
+
+.link-block {
+  position: relative;           /* 子要素の絶対位置指定を有効にするため */
+  overflow: hidden;             /* 画像がはみ出さないように */
+  min-height: 200px;            /* 画像の高さに合わせて調整 */
+  padding-top: 20px;            /* 上に少し余白 */
+  padding: 10px;                /* 画像間の余白を追加 */
+}
+
+.link-block img {
+  position: absolute;           /* 重ねるために絶対位置 */
+  top: 0;                       /* 親要素の上端に合わせる */
+  left: 0;                      /* 親要素の左端に合わせる */
+  transition: opacity 1s ease;  /* なめらかなフェード効果 */
+  width: 90%;                   /* 幅を90%に調整 */
+  height: auto;                 /* 高さは自動調整 */
+  display: block;               /* ブロック要素化 */
+  margin-left: 5%;              /* 中央寄せ (左右に5%ずつ余白) */
+  margin-right: 5%;             /* 中央寄せ (左右に5%ずつ余白) */
+}
+
+.img1 {
+  opacity: 1;                   /* 最初は表示 */
+  z-index: 1;                   /* 重ね順を指定 */ 
+  position: absolute;           /* 重ねるために絶対位置 */
+  top: 0;                       /* 親要素の上端に合わせる */  
+  left: 0;                      /* 親要素の左端に合わせる */
+}
+
+.img2 {
+  opacity: 0;                   /* 最初は非表示 */
+  z-index: 2;                   /* 重ね順を指定 */
+  position: absolute;           /* 重ねるために絶対位置 */
+  top: 0;                       /* 親要素の上端に合わせる */
+  left: 0;                      /* 親要素の左端に合わせる */
+}
+
+.link-block:last-child img {
+  margin-right: 0;              /* 最後の画像の右側の余白をなくす */
+}
+
+/* ----------------------------------------
     フッターのスタイル定義
 ---------------------------------------- */
 /* フッター全体の背景色と余白 */

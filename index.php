@@ -35,10 +35,30 @@
 
   	<div class="container-fluid">
   	  <div class="row">
-  	    <div class="col-sm-3 col-6"><a href="kiseki.php"><img src="./photo-1/軌跡01.jpg" class="img-fluid" alt=""></a></div>
-  	    <div class="col-sm-3 col-6"><a href="girei.php"><img src="./photo-1/事例01.jpg" class="img-fluid" alt=""></a></div>
-  	    <div class="col-sm-3 col-6"><a href="ofuda.php"><img src="./photo-1/販売01.jpg" class="img-fluid" alt=""></a></div>
-  	    <div class="col-sm-3 col-6"><a href="soudan.php"><img src="./photo-1/相談01.jpg" class="img-fluid" alt=""></a></div>
+        <div class="col-sm-3 col-6 link-block">
+          <a href="kiseki.php">
+            <img src="./photo-1/軌跡01.jpg" class="img-fluid img1" alt="">
+            <img src="./photo-1/軌跡02.jpg" class="img-fluid img2" alt="">
+          </a>
+        </div>
+        <div class="col-sm-3 col-6 link-block">
+          <a href="girei.php">
+            <img src="./photo-1/事例01.jpg" class="img-fluid img1" alt="">
+            <img src="./photo-1/事例02.jpg" class="img-fluid img2" alt="">
+          </a>
+        </div>
+        <div class="col-sm-3 col-6 link-block">
+          <a href="ofuda.php">
+            <img src="./photo-1/販売01.jpg" class="img-fluid img1" alt="">
+            <img src="./photo-1/販売02.jpg" class="img-fluid img2" alt="">
+          </a>
+        </div>
+        <div class="col-sm-3 col-6 link-block">
+          <a href="soudan.php">
+            <img src="./photo-1/相談01.jpg" class="img-fluid img1" alt="">
+            <img src="./photo-1/相談02.jpg" class="img-fluid img2" alt="">
+          </a>
+        </div>
       </div>
   	</div>
 
@@ -114,5 +134,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script> 
     <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/image-switch.js"></script>
   </body>
 </html>

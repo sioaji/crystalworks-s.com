@@ -23,8 +23,8 @@
   	    <div class="col-lg-4"></div>
   	    <div class="col-lg-4">
           <aside id="mainimg">  
-            <img src="./photo-1/軌跡／OFF.jpg" alt="" id="slide1">
-            <img src="./photo-1/軌跡／ON.jpg" alt="" id="slide2">  
+            <img src="./photo-1/軌跡01.jpg" alt="" id="slide1">
+            <img src="./photo-1/軌跡02.jpg" alt="" id="slide2">  
           </aside>
         </div>
   	    <div class="col-lg-4"></div>
