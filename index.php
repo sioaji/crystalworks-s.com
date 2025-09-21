@@ -35,10 +35,10 @@
 
   	<div class="container-fluid">
   	  <div class="row">
-  	    <div class="col-sm-3 col-6"><a href="kiseki.html"><img src="./photo-1/軌跡01.jpg" class="img-fluid" alt=""></a></div>
-  	    <div class="col-sm-3 col-6"><a href="girei.html"><img src="./photo-1/事例01.jpg" class="img-fluid" alt=""></a></div>
-  	    <div class="col-sm-3 col-6"><a href="ofuda.html"><img src="./photo-1/販売01.jpg" class="img-fluid" alt=""></a></div>
-  	    <div class="col-sm-3 col-6"><a href="soudan.html"><img src="./photo-1/相談01.jpg" class="img-fluid" alt=""></a></div>
+  	    <div class="col-sm-3 col-6"><a href="kiseki.php"><img src="./photo-1/軌跡01.jpg" class="img-fluid" alt=""></a></div>
+  	    <div class="col-sm-3 col-6"><a href="girei.php"><img src="./photo-1/事例01.jpg" class="img-fluid" alt=""></a></div>
+  	    <div class="col-sm-3 col-6"><a href="ofuda.php"><img src="./photo-1/販売01.jpg" class="img-fluid" alt=""></a></div>
+  	    <div class="col-sm-3 col-6"><a href="soudan.php"><img src="./photo-1/相談01.jpg" class="img-fluid" alt=""></a></div>
       </div>
   	</div>
 
@@ -91,16 +91,16 @@
 
     <div class="container-fluid">
       <div style="text-align:center">
-        <a href="kiseki.html">
+        <a href="kiseki.php">
           <img src="./photo-1/軌跡／発光.jpg" class="img-fluid" alt="Kiseki">
         </a>
-        <a href="girei.html">
+        <a href="girei.php">
           <img src="./photo-1/事例発光01.jpg" class="img-fluid" alt="girei">
         </a>
-        <a href="ofuda.html">
+        <a href="ofuda.php">
           <img src="./photo-1/御札発光01.jpg" class="img-fluid" alt="ofuda">
         </a>
-        <a href="soudan.html">
+        <a href="soudan.php">
           <img src="./photo-1/相談／発光.jpg" class="img-fluid" alt="soudan">
         </a>
       </div>
