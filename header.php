@@ -10,7 +10,7 @@
     <i class="fas fa-bars"></i> ご案内
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-    <ul class="navbar-nav ml-auto">
+  <ul class="navbar-nav ms-auto">
       <li class="nav-item"><a class="nav-link" href="kiseki.php">軌跡</a></li>
       <li class="nav-item"><a class="nav-link" href="girei.php">事例</a></li>
       <li class="nav-item"><a class="nav-link" href="ofuda.php">販売</a></li>
