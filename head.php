@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Keywords" content="鈴木照玉、霊能力、霊能者、悩み、霊視、ヒーリング、スピリチュアル">
     <meta name="Description" content="主護神様より授けられた三つの神通力で心を癒します。霊といかに生き、いかに過ごすかが大切です。">
-    <meta name="google-site-verification" content="ow4J0pZTA8GONuzDUsolBAL-Jm96yui9uGROiluWgRs" />
+    <!-- <meta name="google-site-verification" content="ow4J0pZTA8GONuzDUsolBAL-Jm96yui9uGROiluWgRs" /> -->
     <title>神霊導師・鈴木照玉公式サイト</title>
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
