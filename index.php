@@ -25,7 +25,7 @@
           </a>
         </div>
         <div class="col-sm-3 col-6 link-block">
-          <a href="girei.php">
+          <a href="jirei.php">
             <img src="./photo-1/事例01.jpg" class="img-fluid img1" alt="">
             <img src="./photo-1/事例02.jpg" class="img-fluid img2" alt="">
           </a>
@@ -103,7 +103,7 @@
         <a href="kiseki.php">
           <img src="./photo-1/軌跡／発光.jpg" class="img-fluid" alt="Kiseki">
         </a>
-        <a href="girei.php">
+        <a href="jirei.php">
           <img src="./photo-1/事例発光01.jpg" class="img-fluid" alt="girei">
         </a>
         <a href="ofuda.php">
