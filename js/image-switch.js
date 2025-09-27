@@ -1,29 +1,34 @@
 window.addEventListener('load', () => {
   const blocks = document.querySelectorAll('.link-block');
-  let currentIndex = 0;
 
   // 初期状態：すべて img1 を表示
   blocks.forEach(block => {
-    block.querySelector('.img1').style.opacity = '1';
-    block.querySelector('.img2').style.opacity = '0';
+    const img1 = block.querySelector('.img1');
+    const img2 = block.querySelector('.img2');
+    img1.classList.add('visible');
+    img1.classList.remove('hidden');
+    img2.classList.add('hidden');
+    img2.classList.remove('visible');
   });
 
   // 順番に切り替える関数
   setInterval(() => {
-    const block = blocks[currentIndex];
-    const img1 = block.querySelector('.img1');
-    const img2 = block.querySelector('.img2');
+    blocks.forEach(block => {
+      const img1 = block.querySelector('.img1');
+      const img2 = block.querySelector('.img2');
+      const isImg1Visible = img1.classList.contains('visible');
 
-    // トグル切り替え
-    if (img1.style.opacity === '1') {
-      img1.style.opacity = '0';
-      img2.style.opacity = '1';
-    } else {
-      img1.style.opacity = '1';
-      img2.style.opacity = '0';
-    }
-
-    // 次のインデックスへ
-    currentIndex = (currentIndex + 1) % blocks.length;
-  }, 3000); // 3秒ごとに1つずつ切り替え
+      if (isImg1Visible) {
+        img1.classList.remove('visible');
+        img1.classList.add('hidden');
+        img2.classList.remove('hidden');
+        img2.classList.add('visible');
+      } else {
+        img1.classList.remove('hidden');
+        img1.classList.add('visible');
+        img2.classList.remove('visible');
+        img2.classList.add('hidden');
+      }
+    });
+  }, 3000);
 });

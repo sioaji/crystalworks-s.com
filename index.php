@@ -78,7 +78,7 @@
                 高評価、チャンネル登録をよろしくお願いいたします！！
               </p>
               <div style="text-align: center;">
-                <iframe width="336" height="189" src="https://www.youtube.com/embed/XGJkRVtEH3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/XGJkRVtEH3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -92,8 +92,8 @@
                 </strong>
               </p>
               <div class="d-flex justify-content-center flex-wrap gap-3">
-                  <iframe width="336" height="189" src="https://www.youtube.com/embed/lTAbclN96QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  <iframe width="336" height="189" src="https://www.youtube.com/embed/p6zjbdvJcW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe src="https://www.youtube.com/embed/lTAbclN96QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe src="https://www.youtube.com/embed/p6zjbdvJcW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
