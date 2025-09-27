@@ -147,6 +147,35 @@ div a .img-fluid {
 }
 
 /* ----------------------------------------
+    トピック全体の枠と背景
+---------------------------------------- */
+.topic-frame {
+  border: 2px solid rgba(245, 245, 220, 0.3); /* 生成り色の半透明枠 */
+  border-radius: 12px;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.03), rgba(255,255,255,0.08));
+  backdrop-filter: blur(4px);
+  padding: 40px 30px;
+  margin: 60px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  color: #F5F5DC;
+  font-family: 'Yuji Syuku', serif;
+}
+.topic-frame h5.sub-midashi {
+  font-size: 28px;
+  color: #F5F5DC;
+  border-bottom: 1px solid #F5F5DC;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.topic-frame iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ----------------------------------------
     レスポンシブ対応
 ---------------------------------------- */
 /* 画面幅が1200px以上のとき(PC画面) */
@@ -231,9 +260,19 @@ div a .img-fluid {
   gap: 0; /* gapは使わず、個別にmarginで調整 */
 }
 
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
 .social-icons img {
-  height: 67px;
-  width: auto;
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
 }
 
 /* Twitterロゴ（左） */

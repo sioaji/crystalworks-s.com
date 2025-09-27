@@ -10,9 +10,12 @@
       <title>神霊導師・鈴木照玉公式サイト</title>
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <!-- Bootstrap 5.3.2 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- my style -->
     <link href="css/my_style.css" rel="stylesheet" type="text/css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
     body{
@@ -64,47 +67,53 @@
 
     <div class="container-fluid">	  
       <div class="info">
-        <h5 class="sub-midashi col-lg-8 offset-lg-2"><strong><br>◎トピック</strong></h5>
-        <p class="col-lg-8 offset-lg-2">
-          <strong>
-            ⚪︎神霊導師・鈴木照玉先生のYouTubeチャンネル開設！ <br>
-            <a href="https://www.youtube.com/@suzukisyogyoku">＜神の力　霊能者・鈴木照玉＞</a><br>
-            高評価、チャンネル登録をよろしくお願いいたします！！
-          </strong>
-        </p>
-        
-        <div style="text-align: center;">
-          <p class="col-lg-8 offset-lg-2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XGJkRVtEH3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </p>
-        </div>
-        
-        <p class="col-lg-8 offset-lg-2">
-        
-        <p class="col-lg-8 offset-lg-2">
-          <strong>
-            ⚪︎神霊導師・鈴木照玉先生がYouTube番組・K-MEN ch【キッチンカーエンターテイメント】に出演！ <br>
-            ＜心霊スポット・東京都八王子市の滝山城跡を巡る＞
-          </strong>
-        </p>
-        
-        <div style="text-align: center;">
-          <p class="col-lg-8 offset-lg-2">
-            <iframe width="336" height="189" src="https://www.youtube.com/embed/lTAbclN96QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </p>
-          <p class="col-lg-8 offset-lg-2">
-            <iframe width="336" height="189" src="https://www.youtube.com/embed/p6zjbdvJcW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </p>
-          <p class="col-lg-8 offset-lg-2">
-            <div class="social-icons">
-              <a href="https://twitter.com/shogyoku_s">
-                <img src="./photo-1/twitter-logo.jpg" class="twitter" alt="Twitter">
-              </a>
-              <a href="https://www.facebook.com/shougyoku.suzuki/?locale=ja_JP">
-                <img src="./photo-1/facebook-logo.png" class="facebook" alt="Facebook">
-              </a>
+        <div class="topic-frame">
+          <h5 class="sub-midashi"><strong>◎トピック</strong></h5>
+
+      	  <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <p>⚪︎神霊導師・鈴木照玉先生のYouTubeチャンネル開設！</p>
+              <p>
+                <a href="https://www.youtube.com/@suzukisyogyoku">＜神の力　霊能者・鈴木照玉＞</a><br>
+                高評価、チャンネル登録をよろしくお願いいたします！！
+              </p>
+              <div style="text-align: center;">
+                <iframe width="336" height="189" src="https://www.youtube.com/embed/XGJkRVtEH3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
             </div>
-          </p>
+          </div>
+        
+      	  <div class="row">
+            <div class="col-lg-8 mx-auto mt-4">
+              <p>
+                <strong>
+                  ⚪︎神霊導師・鈴木照玉先生がYouTube番組・K-MEN ch【キッチンカーエンターテイメント】に出演！ <br>
+                  ＜心霊スポット・東京都八王子市の滝山城跡を巡る＞
+                </strong>
+              </p>
+              <div class="d-flex justify-content-center flex-wrap gap-3">
+                  <iframe width="336" height="189" src="https://www.youtube.com/embed/lTAbclN96QU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="336" height="189" src="https://www.youtube.com/embed/p6zjbdvJcW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <!-- 他のトピックもここに続けて配置 -->
+        </div>
+
+        <div>
+      	  <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="social-icons">
+                <a href="https://twitter.com/shogyoku_s">
+                  <img src="./photo-1/twitter-logo.jpg" class="twitter" alt="Twitter">
+                </a>
+                <a href="https://www.facebook.com/shougyoku.suzuki/?locale=ja_JP">
+                  <img src="./photo-1/facebook-logo.png" class="facebook" alt="Facebook">
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
