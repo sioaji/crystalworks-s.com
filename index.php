@@ -48,11 +48,11 @@
     <div class="container-fluid">	  
       <div class="info">
         <div class="topic-frame">
-          <h5 class="sub-midashi"><strong>◎トピック</strong></h5>
+          <h5 class="sub-midashi"><strong><i class="fa-solid fa-eye custom-icon-topic"></i>トピック</strong></h5>
 
       	  <div class="row">
             <div class="col-lg-8 mx-auto">
-              <p>⚪︎神霊導師・鈴木照玉先生のYouTubeチャンネル開設！</p>
+              <p><i class="fa-solid fa-eye custom-icon-topic"></i>神霊導師・鈴木照玉先生のYouTubeチャンネル開設！</p>
               <p>
                 <a href="https://www.youtube.com/@suzukisyogyoku">＜神の力　霊能者・鈴木照玉＞</a><br>
                 高評価、チャンネル登録をよろしくお願いいたします！！
@@ -67,7 +67,9 @@
             <div class="col-lg-8 mx-auto mt-4">
               <p>
                 <strong>
-                  ⚪︎神霊導師・鈴木照玉先生がYouTube番組・K-MEN ch【キッチンカーエンターテイメント】に出演！ <br>
+                  <i class="fa-solid fa-eye custom-icon-topic"></i>
+                  神霊導師・鈴木照玉先生がYouTube番組・K-MEN ch<br>
+                  【キッチンカーエンターテイメント】に出演！ <br>
                   ＜心霊スポット・東京都八王子市の滝山城跡を巡る＞
                 </strong>
               </p>
