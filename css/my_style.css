@@ -296,3 +296,37 @@ div a .img-fluid {
   margin-left: 30px;  /* Twitterとの間隔（片側だけ） */
   margin-right: 33.5px; /* Facebookの幅（67px ÷ 2） */
 }
+
+/* ----------------------------------------
+    奇跡ページ
+---------------------------------------- */
+/* 和紙風の背景枠 */
+.washi-frame {
+  background:
+    repeating-linear-gradient(135deg, #f7f3e6 0px, #e9e2d3 40px, #f7f3e6 80px),
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><circle cx="20" cy="30" r="2" fill="white" fill-opacity="0.15"/><circle cx="70" cy="80" r="1.5" fill="white" fill-opacity="0.12"/><circle cx="50" cy="50" r="1.2" fill="white" fill-opacity="0.10"/><circle cx="80" cy="20" r="1.8" fill="white" fill-opacity="0.13"/><circle cx="10" cy="90" r="1.5" fill="white" fill-opacity="0.09"/></svg>');
+  background-size: 100px 100px, auto;
+  border: 2px solid rgba(180, 140, 100, 0.25);
+  border-radius: 18px;
+  box-shadow: 0 0 24px rgba(180, 140, 100, 0.08);
+  padding: 32px 24px;
+  margin: 40px auto;
+  max-width: 700px;
+  color: #4a3c1a;
+  font-size: 1.25rem;
+  font-family: 'Yuji Syuku', serif;
+  text-align: center;
+}
+
+/* 自叙伝部分の読みやすさ向上 */
+.kiseki-catch p.autobio {
+  background: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  padding: 24px 18px;
+  margin: 32px auto;
+  max-width: 800px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 2.1;
+  font-family: 'Yuji Syuku', serif;
+}
