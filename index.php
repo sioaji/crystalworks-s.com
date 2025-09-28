@@ -48,16 +48,19 @@
     <!-- noteブログ表示領域 -->
     <div class="container-fluid">
       <div class="info">
-        <div class="note-frame" style="max-width:700px;margin:40px auto 0 auto;padding:32px 24px;background:#f7f3e6;border-radius:18px;box-shadow:0 0 24px rgba(180,140,100,0.08);text-align:center;">
+
+        <div class="topic-frame">
           <h5 class="sub-midashi"><strong><i class="fa-solid fa-blog custom-icon-topic"></i>最新ブログ（note）</strong></h5>
           <!-- noteウィジェット埋め込み -->
-          <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="175385/"></script> <!-- end feedwind code -->
+          <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="175385/"></script>
+          <!-- end feedwind code -->
 
 
           <div style="margin-top:12px;font-size:0.95rem;">
             <a href="https://note.com/dreamy_myrtle334" target="_blank" rel="noopener">もっと見る（noteブログ一覧）</a>
           </div>
         </div>
+        
         <div class="topic-frame">
           <h5 class="sub-midashi"><strong><i class="fa-solid fa-eye custom-icon-topic"></i>トピック</strong></h5>
 
