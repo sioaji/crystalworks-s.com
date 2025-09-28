@@ -102,6 +102,7 @@ body {
   position: absolute;           /* 重ねるために絶対位置 */
   top: 0;                       /* 親要素の上端に合わせる */  
   left: 0;                      /* 親要素の左端に合わせる */
+  transition: opacity 4s cubic-bezier(0.4,0,0.2,1);
 }
 
 .img2 {
@@ -110,15 +111,12 @@ body {
   position: absolute;           /* 重ねるために絶対位置 */
   top: 0;                       /* 親要素の上端に合わせる */
   left: 0;                      /* 親要素の左端に合わせる */
+  transition: opacity 4s cubic-bezier(0.4,0,0.2,1);
 }
 
 .link-block:last-child img {
   margin-right: 0;              /* 最後の画像の右側の余白をなくす */
 }
-
-/* 画像の切り替え関数 */
-.visible { opacity: 1; } 
-.hidden { opacity: 0; }
 
 /* ----------------------------------------
     コンテナのスタイル定義
