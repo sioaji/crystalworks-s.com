@@ -22,20 +22,32 @@
 
     <div class="container-fluid">
       <div class="soudan">
-        <h1 class="offset-lg-2 col-lg-8 text-center">
-          <strong>
-          除災品は全て神霊導師・鈴木照玉先生が
-          ご購入者に合わせてパワーストーンを選び、
-          念を込めますのでお手元に届くまで
-          一ヶ月程度お時間がかかります。
-          また、御札についても同様です。
-          </strong>
-        </h1>
+        <div class="topic-frame">
+          <h5 class="sub-midashi"><strong><i class="fa-solid fa-eye custom-icon-topic"></i> 腕念珠・御札の販売</strong></h5>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="autobio">
+                <table class="profile-table" style="width:100%;margin:auto;border-collapse:separate;border-spacing:0 8px;">
+                  <tbody>
+                    <tr>
+                      <td class="profile-date">除災品</td>
+                      <td>全て、神霊導師・鈴木照玉先生が、ご購入者に合わせてパワーストーンを選び、念を込めますので、お手元に届くまで、１ヶ月程度お時間がかかります。</td>
+                    </tr>
+                    <tr>
+                      <td class="profile-date">御札</td>
+                      <td>御札についても同様です。</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
         <h1 class="text-center">
-          <strong><br>
-          只今、準備中です。<br>
-          少々お待ち下さい。
-        </strong></h1>
+        <div class="washi-frame" style="margin-top:32px;">
+          <h2 style="margin-bottom:12px;">只今、準備中です。</h2>
+          <div>少々お待ち下さい。</div>
+        </div>
       </div>
     </div>
 
