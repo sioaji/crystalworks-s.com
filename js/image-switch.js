@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
   const blocks = document.querySelectorAll('.link-block');
 
-  // ‰Šúó‘ÔF‚·‚×‚Ä img1 ‚ð•\Ž¦
+  // åˆæœŸçŠ¶æ…‹ï¼šã™ã¹ã¦ img1 ã‚’è¡¨ç¤º
   blocks.forEach(block => {
     const img1 = block.querySelector('.img1');
     const img2 = block.querySelector('.img2');
@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
     img2.classList.remove('visible');
   });
 
-  // ‡”Ô‚ÉØ‚è‘Ö‚¦‚éŠÖ”
+  // é †ç•ªã«åˆ‡ã‚Šæ›¿ãˆã‚‹é–¢æ•°
   setInterval(() => {
     blocks.forEach(block => {
       const img1 = block.querySelector('.img1');

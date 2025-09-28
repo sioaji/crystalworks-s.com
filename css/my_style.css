@@ -1,3 +1,15 @@
+.footer-info,
+.footer-copyright {
+  font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
+}
+.topic-frame p,
+.topic-frame strong {
+  font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
+}
+.topic-frame .autobio {
+  font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
+}
+
 @charset "UTF-8";
 
 /* サイト全体のフォントを和風の「Yuji Syuku」に統一 */
@@ -328,5 +340,5 @@ div a .img-fluid {
   color: #333;
   font-size: 1.1rem;
   line-height: 2.1;
-  font-family: 'Yuji Syuku', serif;
+  font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
 }
