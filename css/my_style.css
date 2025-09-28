@@ -2,8 +2,7 @@
 .footer-copyright {
   font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
 }
-.topic-frame p,
-.topic-frame strong {
+.topic-frame p {
   font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
 }
 .topic-frame .autobio {
@@ -182,7 +181,9 @@ div a .img-fluid {
   color: #F5F5DC;
   font-family: 'Yuji Syuku', serif;
 }
+
 .topic-frame h5.sub-midashi {
+  font-family: 'Yuji Syuku', serif !important;
   font-size: 28px;
   color: #F5F5DC;
   border-bottom: 1px solid #F5F5DC;
@@ -191,6 +192,7 @@ div a .img-fluid {
   text-align: center;
   letter-spacing: 2px;
 }
+
 .topic-frame iframe {
   max-width: 100%;
   height: auto;
