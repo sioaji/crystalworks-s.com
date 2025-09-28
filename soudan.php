@@ -74,7 +74,7 @@
                       30,000円：2回目以降（リピーター価格）</td>
                     </tr>
                     <tr>
-                      <td class="profile-date">神様降霊</td>
+                      <td class="profile-date">神様降霊<br>（かみさま こうれい）</td>
                       <td>50,000円 / 1回<br>
                       ※希望者のみ事前予約が必要です。</td>
                     </tr>
@@ -89,7 +89,7 @@
                       ※5日間からになります。</td>
                     </tr>
                     <tr>
-                      <td class="profile-date">丑三つ祈祷料</td>
+                      <td class="profile-date">丑三つ祈祷料<br>（うしみつ きとう）</td>
                       <td>30,000円 / 1回<br>
                       ※大きな問題解決が必要な場合のみ。<br>
                       （回数は神様降霊にてお伝えします）</td>
@@ -114,8 +114,10 @@
                 <table class="profile-table" style="width:100%;margin:auto;border-collapse:separate;border-spacing:0 8px;">
                   <tbody>
                     <tr>
-                      <td class="profile-date">メール形式</td>
-                      <td>下記の形式にてメールでお問い合わせください。</td>
+                      <td class="profile-date">申し込み方法</td>
+                      <td>ご相談につきましては、<br>
+                        下記【ご相談 お申込みフォーム】にて、<br>
+                        以下の内容を記入し、お問い合わせください。</td>
                     </tr>
                     <tr>
                       <td class="profile-date">①お名前・ご年齢</td>
@@ -127,11 +129,16 @@
                     </tr>
                     <tr>
                       <td class="profile-date">③ご相談内容</td>
-                      <td>簡単にご相談内容などをお書きください。<br>※基本、照玉神霊道場（岐阜県大垣市）または東京相談所（台東区）での面談形式ですが、難しい場合は、その旨、申込時にお知らせください。<br>※出張などの特殊な場合を除き、メールのみで日時を決定いたします。<br>※スケジュール調整の関係で、返信が数日遅れることがあります。ご容赦ください。</td>
+                      <td>簡単にご相談内容などをお書きください。<br>
+                      <br>
+                      ※基本、照玉神霊道場（岐阜県大垣市）または東京相談所（台東区）での面談形式で行っております。<br>
+                      相談所での面接が難しい場合は、その旨、申込時にお知らせください。<br>
+                      ※相談日につきましては、出張などの特殊な場合を除き、受付後のメールで日時を決定いたします。<br>
+                      ※スケジュール調整の関係で、返信が数日遅れることがあります。ご容赦ください。</td>
                     </tr>
                     <tr>
-                      <td class="profile-date">連絡先</td>
-                      <td>有限会社クリスタルワーク<br><a href="mailto:soudan@crystalworks-s.com">soudan@crystalworks-s.com</a></td>
+                      <td class="profile-date">お申し込み先</td>
+                      <td>ご相談のお申込みフォームはこちら<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfSri-TFkviGiH_zf14LDL7BhKj0_EDS-k2h5zY5VimqYrKQA/viewform?usp=dialog">【ご相談 お申込みフォーム】</a></td>
                     </tr>
                   </tbody>
                 </table>
@@ -150,11 +157,12 @@
                 <table class="profile-table" style="width:100%;margin:auto;border-collapse:separate;border-spacing:0 8px;">
                   <tbody>
                     <tr>
-                      <td class="profile-date">メール形式</td>
-                      <td>テレビ、Youtubeなど映像作品の出演、イベントなどの参加依頼など、まずは下記の形式にてメールでお問い合わせください。</td>
+                      <td class="profile-date">申し込み方法</td>
+                      <td>テレビ、Youtubeなど映像作品の出演、イベントなどの参加依頼など。<br>
+                      まずは下記の【依頼等 お申込みフォーム】にてお問い合わせください。</td>
                     </tr>
                     <tr>
-                      <td class="profile-date">①会社名・団体名及び担当者様</td>
+                      <td class="profile-date">①会社名・団体名 及び、<br>　担当者様</td>
                       <td>必須項目です。</td>
                     </tr>
                     <tr>
@@ -170,8 +178,8 @@
                       <td>必須項目です。</td>
                     </tr>
                     <tr>
-                      <td class="profile-date">連絡先</td>
-                      <td>有限会社クリスタルワーク<br><a href="mailto:info@crystalworks-s.com">info@crystalworks-s.com</a></td>
+                      <td class="profile-date">お申し込み先</td>
+                      <td>出演等のお申込みフォームはこちら<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScIS0tKdfVwESyWXDy0pGK761HxymcwA1tE80xe8F2Xpmr8iQ/viewform?usp=header">【出演等 お申込みフォーム】</a></td>
                     </tr>
                   </tbody>
                 </table>
