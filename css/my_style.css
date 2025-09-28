@@ -247,7 +247,17 @@ div a .img-fluid {
     font-size: 0.98rem;
     padding: 12px 6px;
   }
-  .profile-table td {
+  /* サブ見出し内の表を1列表示 */
+  .topic-frame .profile-table,
+  .topic-frame .profile-table tbody,
+  .topic-frame .profile-table tr {
+    display: block;
+    width: 100%;
+  }
+  .topic-frame .profile-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
     padding: 4px 6px;
     font-size: 0.98rem;
   }
