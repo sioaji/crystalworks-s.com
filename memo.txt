@@ -1,0 +1,10 @@
+運用版は、.phpで公開するが、
+テスト公開用に、.php　→　.html　に変換する為のスクリプト
+
+下記をvscODEのターミナルで実行する。
+
+１）PHP　→　HTMLに変換する
+powershell -ExecutionPolicy Bypass -File .\save_html.ps1
+
+２）Linkの拡張子を　PHP　→　HTMLに変換する
+powershell -ExecutionPolicy Bypass -File .\fix_links.ps1
