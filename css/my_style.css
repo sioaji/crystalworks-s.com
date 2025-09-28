@@ -231,7 +231,40 @@ div a .img-fluid {
 
 /* 767px以下のとき：スマホ向けのスタイル（未定義） */
 @media (max-width: 767px){
-}
+  .topic-frame {
+    padding: 18px 6px;
+    margin: 24px auto;
+    max-width: 98vw;
+    font-size: 0.98rem;
+  }
+  .topic-frame h5.sub-midashi {
+    font-size: 1.2rem;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+  }
+  .autobio {
+    font-size: 0.98rem;
+    padding: 12px 6px;
+  }
+  .profile-table td {
+    padding: 4px 6px;
+    font-size: 0.98rem;
+  }
+  .washi-frame {
+    padding: 16px 8px;
+    margin: 18px auto;
+    max-width: 98vw;
+    font-size: 1rem;
+  }
+  .footer-info, .footer-copyright {
+    font-size: 0.85rem;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .navbar-brand strong {
+    font-size: 1rem;
+  }
 
 /* ----------------------------------------
     追加のスタイル定義
