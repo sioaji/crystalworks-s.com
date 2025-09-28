@@ -344,3 +344,21 @@ div a .img-fluid {
   line-height: 2.1;
   font-family: 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif !important;
 }
+
+/* プロフィールテーブルの見た目調整 */
+.profile-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  font-size: 1.05rem;
+}
+.profile-table td {
+  padding: 6px 10px;
+  vertical-align: top;
+}
+.profile-date {
+  font-weight: bold;
+  color: #7c5c2a;
+  white-space: nowrap;
+  font-family: 'Yuji Syuku', serif;
+}
