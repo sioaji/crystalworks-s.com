@@ -253,7 +253,7 @@ div a .img-fluid {
 ---------------------------------------- */
 .menu-button {
   border: 2px solid #F5F5DC;              /* 生成り色の枠線 */
-  color: #F5F5DC;                         /* 生成り色の文字 */
+  color: #222 !important;                  /* 黒系で視認性UP */
   background-color: transparent;            /* 背景は透明 */  
   padding: 0.5rem 1rem;                     /* ボタン内の余白 */
   border-radius: 4px;                       /* 角丸 */
