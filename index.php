@@ -45,10 +45,33 @@
       </div>
   	</div>
 
-    <!-- noteブログ表示領域 -->
     <div class="container-fluid">
       <div class="info">
 
+        <!-- SNSアイコン -->
+        <div>
+      	  <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="social-icons text-center">
+                <a href="https://www.facebook.com/shougyoku.suzuki/?locale=ja_JP" target="_blank" rel="noopener">
+                  <i class="fab fa-facebook-f facebook-icon"></i>
+                </a>
+                <a href="https://note.com/dreamy_myrtle334" target="_blank" rel="noopener">
+                  <i class="fas fa-blog note-icon"></i>
+                </a>
+                <a href="https://www.youtube.com/@suzukisyogyoku" target="_blank" rel="noopener">
+                  <i class="fab fa-youtube youtube-icon"></i>
+                </a>
+                <a href="https://twitter.com/shogyoku_s" target="_blank" rel="noopener">
+                  <i class="fab fa-twitter twitter-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SNSアイコン ここまで　-->
+
+        <!-- noteブログ表示領域 -->
         <div class="topic-frame">
           <h5 class="sub-midashi"><strong><i class="fa-solid fa-blog custom-icon-topic"></i>最新ブログ（note）</strong></h5>
           <!-- noteウィジェット埋め込み 照玉 | https://note.com/dreamy_myrtle334/rss -->              
@@ -82,12 +105,14 @@
               echo '<p>RSSの取得に失敗しました。</p>';
           }
           ?>
-
+          <!-- noteウィジェット埋め込みここまで -->
           <div style="margin-top:12px;font-size:0.95rem;">
             <a href="https://note.com/dreamy_myrtle334" target="_blank" rel="noopener">もっと見る（noteブログ一覧）</a>
           </div>
         </div>
-        <!-- noteウィジェット埋め込みここまで -->
+        <!-- noteブログ表示領域 ここまで -->
+         
+        <!-- トピック表示領域 -->
         <div class="topic-frame">
           <h5 class="sub-midashi"><strong><i class="fa-solid fa-eye custom-icon-topic"></i>トピック</strong></h5>
 
@@ -123,21 +148,8 @@
 
           <!-- 他のトピックもここに続けて配置 -->
         </div>
+        <!-- トピック表示領域 ここまで -->
 
-        <div>
-      	  <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="social-icons">
-                <a href="https://twitter.com/shogyoku_s">
-                  <img src="./photo-1/twitter-logo.jpg" class="twitter" alt="Twitter">
-                </a>
-                <a href="https://www.facebook.com/shougyoku.suzuki/?locale=ja_JP">
-                  <img src="./photo-1/facebook-logo.png" class="facebook" alt="Facebook">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
