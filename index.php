@@ -45,8 +45,49 @@
       </div>
   	</div>
 
-    <div class="container-fluid">	  
+    <!-- noteブログ表示領域 -->
+    <div class="container-fluid">
       <div class="info">
+
+        <div class="topic-frame">
+          <h5 class="sub-midashi"><strong><i class="fa-solid fa-blog custom-icon-topic"></i>最新ブログ（note）</strong></h5>
+          <!-- noteウィジェット埋め込み 照玉 | https://note.com/dreamy_myrtle334/rss -->              
+          <?php
+          $rss_url = 'https://note.com/dreamy_myrtle334/rss';
+          $rss = simplexml_load_file($rss_url);
+
+          $items = [];
+          if ($rss && isset($rss->channel->item)) {
+              foreach ($rss->channel->item as $entry) {
+                  $items[] = $entry;
+              }
+              $items = array_slice($items, 0, 3); // 最新3件
+
+              echo '<ul class="note-feed">';
+              foreach ($items as $item) {
+                  $title = htmlspecialchars($item->title, ENT_QUOTES, 'UTF-8');
+                  $link = htmlspecialchars($item->link, ENT_QUOTES, 'UTF-8');
+                  $pubDate = date('Y年n月j日', strtotime($item->pubDate));
+                  $description = strip_tags($item->description);
+                  $description = str_replace('続きをみる', '<a href="' . $link . '" target="_blank">続きはこちら</a>', $description);
+
+                  echo '<li>';
+                  echo '<a href="' . $link . '" target="_blank"><strong>' . $title . '</strong></a><br>';
+                  echo '<small>' . $pubDate . '</small><br>';
+                  echo '<p>' . $description . '</p>';
+                  echo '</li>';
+              }
+              echo '</ul>';
+          } else {
+              echo '<p>RSSの取得に失敗しました。</p>';
+          }
+          ?>
+
+          <div style="margin-top:12px;font-size:0.95rem;">
+            <a href="https://note.com/dreamy_myrtle334" target="_blank" rel="noopener">もっと見る（noteブログ一覧）</a>
+          </div>
+        </div>
+        <!-- noteウィジェット埋め込みここまで -->
         <div class="topic-frame">
           <h5 class="sub-midashi"><strong><i class="fa-solid fa-eye custom-icon-topic"></i>トピック</strong></h5>
 
