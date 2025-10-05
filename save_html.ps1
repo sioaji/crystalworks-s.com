@@ -1,9 +1,9 @@
 $pages = @(
-    @{url="http://localhost:3000/index.php"; file="index.html"},
-    @{url="http://localhost:3000/kiseki.php"; file="kiseki.html"},
-    @{url="http://localhost:3000/jirei.php"; file="jirei.html"},
-    @{url="http://localhost:3000/ofuda.php"; file="ofuda.html"},
-    @{url="http://localhost:3000/soudan.php"; file="soudan.html"}
+    @{url="http://localhost/index.php"; file="index.html"},
+    @{url="http://localhost/kiseki.php"; file="kiseki.html"},
+    @{url="http://localhost/jirei.php"; file="jirei.html"},
+    @{url="http://localhost/ofuda.php"; file="ofuda.html"},
+    @{url="http://localhost/soudan.php"; file="soudan.html"}
 )
 
 foreach ($page in $pages) {

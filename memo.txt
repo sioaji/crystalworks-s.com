@@ -1,7 +1,9 @@
 運用版は、.phpで公開するが、
-テスト公開用に、.php　→　.html　に変換する為のスクリプト
+Githubでのテスト公開用に、.php　→　.html　に変換する為のスクリプトを実行する。
+https://sioaji.github.io/crystalworks-s.com/index.html
 
-下記をvscODEのターミナルで実行する。
+■手順
+下記をVScodeのターミナルで実行する。
 
 １）PHP　→　HTMLに変換する
 powershell -ExecutionPolicy Bypass -File .\save_html.ps1

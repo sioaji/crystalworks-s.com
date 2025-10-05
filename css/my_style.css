@@ -146,6 +146,18 @@ body {
     color: #F2F0F0;
     font-size: 25px;
 }
+
+/* ブログ記事のスタイル */
+.note-feed a {
+  color: #7c5c2a;
+  text-decoration: none;
+  border-bottom: 1px dotted #7c5c2a;
+}
+.note-feed a:hover {
+  color: #5c3d2e;
+  text-decoration: underline;
+}
+
 /* トピック部分の文字色 */
 div a .img-fluid {
 }
