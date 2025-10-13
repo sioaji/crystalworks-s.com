@@ -63,7 +63,7 @@
                   <i class="fab fa-youtube youtube-icon"></i>
                 </a>
                 <a href="https://twitter.com/shogyoku_s" target="_blank" rel="noopener">
-                  <i class="fab fa-twitter twitter-icon"></i>
+                  <i class="fab fa-x-twitter twitter-icon"></i>
                 </a>
               </div>
             </div>

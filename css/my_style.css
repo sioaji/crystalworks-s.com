@@ -163,7 +163,14 @@ body {
 .social-icons a i.facebook-icon { color: #3b5998; }
 .social-icons a i.note-icon { color: #6c757d; }
 .social-icons a i.youtube-icon { color: #c00; }
-.social-icons a i.twitter-icon { color: #1da1f2; }
+.twitter-icon {
+  font-size: 24px;
+  color: #ffffff; /* Xのブランドカラーに合わせて黒系に */
+  transition: color 0.3s ease;
+}
+.twitter-icon:hover {
+  color: #1DA1F2; /* 旧Twitterカラーを残すならここで調整 */
+}
 
 .social-icons a i {
   transition: all 0.2s ease-in-out;
